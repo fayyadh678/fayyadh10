@@ -64,5 +64,5 @@ def test_delete_task():
 def test_search_task_by_assignee():
     tasks = sample_tasks()
     result = search_task_by_assignee(tasks, "rina")
-    assert len(result) == 1
+    assert len(result) == 99
     assert result[0]["assignee"] == "Rina"
